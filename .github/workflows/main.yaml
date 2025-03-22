@@ -22,7 +22,7 @@ jobs:
         run: npm install && npm run build:prod
 
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: SCortesR96/github-pages-deploy-action@v4
         with:
           folder: hexagonal_example/dist/browser
           branch: prod
